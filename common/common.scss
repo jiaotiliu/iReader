@@ -1,3 +1,6 @@
+// 导入字体
+@import url('https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-neo-zhi-song-chs-regular-lxgw-neo-zhi-song/font.css');
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -10,6 +13,7 @@
     font-size: 1.25em !important;
     font-weight: bold;
     margin-bottom: 1em;
+    font-family: 'LXGW Neo ZhiSong CHS', sans-serif;
   }
   .btn {
     height: 100%;
@@ -55,7 +59,7 @@
   }
 }
 
-// Ideally the search banner component should be set to use the below-site-header outlet,
+// 理想情况下，搜索横幅组件应设置为使用网站标题下方的出口，
 // but this ensures the default works too
 .above-main-container-outlet.search-banner {
   .custom-search-banner-wrap {
